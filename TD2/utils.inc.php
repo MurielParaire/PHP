@@ -10,11 +10,12 @@ function start_page($title)
     <body>
     <?php
 }
+start_page("utils.inc");
 ?>
 
 
 <?php
-function end_page()
+function end_page($title)
 {
     ?>
     <footer></footer>
@@ -22,4 +23,5 @@ function end_page()
     </html>
     <?php
 }
+end_page("util.inc");
 ?>

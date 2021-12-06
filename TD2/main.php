@@ -2,7 +2,7 @@
 require 'utils.inc.php' ?>
 
 <?php
-start_page('TD2');
+start_page("main");
 ?>
 
 <?php
@@ -66,5 +66,5 @@ start_page('TD2');
 </table>
 </form>
 <?php
-end_page();
+end_page("main");
 ?>

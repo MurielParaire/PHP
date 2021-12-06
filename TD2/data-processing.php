@@ -3,7 +3,7 @@ require 'utils.inc.php';
 require 'main.php'?>
 
 <?php
-start_page('TD2');
+start_page("TD2");
 ?>
 
 
@@ -27,5 +27,5 @@ $password = $_POST('password');
 
 
 <?php
-end_page();
+end_page("data-processing");
 ?>
