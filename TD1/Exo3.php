@@ -16,15 +16,19 @@ start_page('test');
 ?>
     <hr/><br/><strong>Test</strong><br/><hr/></strong>
     <?php
-    echo date('F d; Y'); ?> <br/>
+    //echo date('1 F d; Y'); ?> <br/>
     <?php
-    $jour = date('F d; Y') ; ?> <br/>
+    //$jour = date('1 F d; Y') ; ?> <br/>
     <?php
-    echo $jour;
+    //echo $jour;
     ?>
     <?php
-echo date('d/F/Y'); ?>
-<?php echo date('F d, Y');
+    //$jour2 = date('d/m/Y', strtotime('2020-04-01'));
+    //echo $jour2;
+    ?>
+    <?php
+echo date('d/m/Y'); ?> <br/>
+<?php echo date('F d, Y, g:i a');
     ?>
 <?php
 function end_page()

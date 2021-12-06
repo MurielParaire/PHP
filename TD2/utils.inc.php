@@ -20,7 +20,6 @@ function end_page()
     <footer></footer>
     </body>
     </html>
-
-<?php
+    <?php
 }
 ?>

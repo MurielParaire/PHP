@@ -1,6 +1,6 @@
 <?php
-include 'utils.inc.php';
-include 'main.php'?>
+require 'utils.inc.php';
+require 'main.php'?>
 
 <?php
 start_page('TD2');
