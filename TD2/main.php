@@ -18,7 +18,7 @@ start_page('TD2');
 
 
 <!--Création d'un formulaire-->
-<form>
+<form action="data-processing.php" method="post">
 <table>
     <tr>
         <td><label for="id">Identifiant</label></td>
@@ -32,11 +32,11 @@ start_page('TD2');
     </tr>
     <tr>
         <td><label for="email">E-mail</label></td>
-        <td><input type="text"/> </br></td>
+        <td><input type="text" name="email"/> </br></td>
     </tr>
     <tr>
         <td><label for="motdepasse">Mot de passe</label></td>
-        <td><input type="password"/> </br></td>
+        <td><input type="password" name="password"/> </br></td>
     </tr>
     <tr>
         <td><label for="verifmotdepasse">Vérification de mot de passe</label></td>
@@ -61,7 +61,7 @@ start_page('TD2');
     </tr>
     <tr>
         <td><label for="submit">Bouton de soumission</label></td>
-        <td><input type="submit"/> </br></td>
+        <td><input type="submit" name="action" value="mailer"/> </br></td>
     </tr>
 </table>
 </form>
