@@ -1,5 +1,5 @@
 <?php
-include 'utils.inc.php' ?>
+require 'utils.inc.php' ?>
 
 <?php
 start_page('TD2');

@@ -11,13 +11,8 @@ function start_page($title)
     <?php
 }
 ?>
-<?php
-start_page('test');
-?>
-    <?php
-?>
-<?php ;
-    ?>
+
+
 <?php
 function end_page()
 {
@@ -28,5 +23,4 @@ function end_page()
 
 <?php
 }
-    end_page();
 ?>
