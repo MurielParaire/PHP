@@ -27,5 +27,5 @@ $password = $_POST('password');
 
 
 <?php
-end_page("data-processing");
+end_page();
 ?>

@@ -66,5 +66,5 @@ start_page("main");
 </table>
 </form>
 <?php
-end_page("main");
+end_page();
 ?>

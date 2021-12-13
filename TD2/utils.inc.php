@@ -15,7 +15,7 @@ start_page("utils.inc");
 
 
 <?php
-function end_page($title)
+function end_page()
 {
     ?>
     <footer></footer>
@@ -23,5 +23,5 @@ function end_page($title)
     </html>
     <?php
 }
-end_page("util.inc");
+end_page();
 ?>
