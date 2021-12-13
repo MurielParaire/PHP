@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <title>Page de connexion</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bodyLogin">
 <form action="verif.php" method="POST" class="formLogin">
